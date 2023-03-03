@@ -16,4 +16,5 @@ else:
     else:
         ganancia = pre_art*0.25
         pre_vent = pre_art + ganancia
-print ("El precio de venta es" (pre_vent))
+print ("El precio de venta es :" + str (pre_vent))
+
