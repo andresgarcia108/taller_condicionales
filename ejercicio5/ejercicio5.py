@@ -1,4 +1,4 @@
-# Programa para calcular el gasto del agua
+    # Programa para calcular el gasto del agua
 
 print ("----------------------------------------")
 print ("-------Calcular el gasto del agua-------")
@@ -22,4 +22,5 @@ else:
                 msj = ("El precio del agua es: ", (precio))
         else:
             precio = (gasto - 50) *2000 + 10000
-    print (msj)
+            msj = ("El precio del agua es: ", (precio))
+print (msj)

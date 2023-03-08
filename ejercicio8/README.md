@@ -1,0 +1,1 @@
+# Programa para saber si el entero a es múltiplo de el entero b

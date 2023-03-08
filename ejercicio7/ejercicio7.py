@@ -7,12 +7,8 @@ c = int(input("Digite el tercer numero entero: "))
 #processing
 
 if a + b == c:
-    msj = ("La suma de los dos primeros números es igual al tercero")
+    msj = ("La suma de " + str(a) + " y " + str(b) + " es igual a " + str(c))
 else:
-    msj = ("La suma de los dos primeros números no es igual al tercero")
+    msj = ("La suma de " + str(a) + " y " + str(b) + " no es igual a " + str(c))
 #output
 print (msj)
-
-
-
-
